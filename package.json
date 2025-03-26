@@ -1,0 +1,37 @@
+{
+  "name": "portal-autorizacion",
+  "version": "1.0.0",
+  "description": "Portal para recabar autorizaciones de consultas de buró de crédito",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"nodemon server/server.js\" \"vite\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/react": "^9.5.0",
+    "axios": "^1.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.14.0",
+    "react": "^19.0.0",
+    "react-router-dom": "^7.3.0",
+    "styled-components": "^6.1.15",
+    "twilio": "^5.5.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.2.1"
+  }
+}
